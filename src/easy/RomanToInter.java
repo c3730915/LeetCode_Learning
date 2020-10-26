@@ -14,7 +14,7 @@ public class RomanToInter {
         int right_value = 0;
         int current_value =0;
         String symbol = "LVIII";
-//        Map<String,Integer> map = Map.of("I",1,"V",5,"X",10,"L",50,"C",100,"D",500,"M",1000);
+        //        Map<String,Integer> map = Map.of("I",1,"V",5,"X",10,"L",50,"C",100,"D",500,"M",1000);
         Map<String,Integer> map = new HashMap<>(10);
         map.put("I",1);
         map.put("V",5);
