@@ -1,3 +1,5 @@
+package wasted;
+
 import java.math.BigInteger;
 import java.util.Stack;
 
@@ -129,7 +131,6 @@ public class Roma{
 
 
     }
-    
     public static int climbStairs(int n){
 
 
@@ -152,8 +153,6 @@ public class Roma{
 
         return 0;
     }
-    
-
   static public class ListNode {
       int val;
       ListNode next;
@@ -181,12 +180,6 @@ public class Roma{
             sBuilder.append(stack.pop().toString());
 
         }
-        // BigInteger  num1=new Integer.parseInt(sBuilder.toString());
-        
-
-        System.out.println(num1);
-
-
 
         return new ListNode();
 

@@ -1,4 +1,4 @@
-package easy;
+package wasted;
 
 import org.junit.Test;
 
