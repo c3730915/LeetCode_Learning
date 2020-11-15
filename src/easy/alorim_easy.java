@@ -1,3 +1,5 @@
+package easy;
+
 import org.junit.Test;
 
 import java.util.*;
@@ -25,14 +27,6 @@ public class alorim_easy {
 
         num1=1;
         num2=1;
-        while (n-->1) {
-
-
-            // System.out.println(n);
-
-
-        }
-
 
 
         return null;
@@ -291,4 +285,5 @@ public class alorim_easy {
 
 
     }
+
 }

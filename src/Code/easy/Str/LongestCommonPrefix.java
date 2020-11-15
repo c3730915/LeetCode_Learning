@@ -1,4 +1,4 @@
-package Code.easy;
+package Code.easy.Str;
 
 import org.junit.Test;
 
@@ -6,6 +6,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class LongestCommonPrefix {
+    /**
+     * easy
+     * #14
+     * Str,array
+     */
     @Test
 
     public void solution() {

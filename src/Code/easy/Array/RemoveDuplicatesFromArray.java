@@ -1,10 +1,17 @@
-package Code.easy;
+package Code.easy.Array;
 
 import org.junit.Test;
 
 import java.util.*;
 
 public class RemoveDuplicatesFromArray {
+    /**
+     * easy
+     * #26
+     * Iterator,Array
+     * @param nums
+     * @return
+     */
     public int solution_1(int[] nums){
         /**
          * 传统方法，运行时间段 算法需要时间理解

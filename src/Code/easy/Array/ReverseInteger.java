@@ -1,8 +1,15 @@
-package Code.easy;
+package Code.easy.Array;
 
 import org.junit.Test;
 
 public class ReverseInteger {
+    /**
+     * easy
+     * #7
+     * array
+     * @param x
+     * @return
+     */
     public int reverse(int x) {
         int y = 0;
         while (x != 0) {

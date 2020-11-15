@@ -1,4 +1,4 @@
-package Code.easy;
+package Code.easy.Array;
 
 import org.junit.Test;
 
@@ -7,6 +7,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class two_sum {
+    /**
+     * easy
+     * #1
+     * Hash Map and array
+     */
 
     @Test
     public void run(){

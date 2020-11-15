@@ -1,4 +1,4 @@
-package Code.easy;
+package Code.easy.Str;
 
 import org.junit.Test;
 
@@ -6,6 +6,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RomanToInter {
+    /**
+     * easy
+     * #13
+     * str,HashMap
+     */
     @Test public void run(){
         solution();
     }

@@ -1,13 +1,15 @@
-package Code.easy;
+package Code.easy.Str;
 
 import org.junit.Test;
 
 public class PalindromeNumber {
-    @Test
-    public void run(){
-
-        System.out.println(solution(1234321));
-    }
+    /**
+     * easy
+     * #9
+     * str,Integer
+     * @param number
+     * @return
+     */
     public boolean solution(int number){
         String str_number = Integer.toString(number);
 //        System.out.println(str_number);

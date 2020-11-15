@@ -1,9 +1,15 @@
-package Code.easy;
+package Code.easy.Stack;
 
 import java.util.Stack;
 
 public class ValidParentheses {
     public boolean isValid(String str) {
+        /**
+         * easy
+         * #20
+         * stack
+         *
+         */
         Stack<Character> stack = new Stack();
 
         for(char a :str.toCharArray()){
