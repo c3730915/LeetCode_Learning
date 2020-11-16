@@ -30,6 +30,7 @@ public class longestPalindrome {
             }
             stringBuilder.setLength(0);
         }
+        //使用类似游标一样的 /-----/这种数据结构，然后依次移动 如果移动完了发现没有 na'me'jian'shao
         System.out.println(maxLength);
         System.out.println(resStr);
         return resStr;
