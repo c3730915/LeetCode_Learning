@@ -1,6 +1,8 @@
 package Code.easy.Tree;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class hasPathSum {
@@ -30,13 +32,16 @@ public class hasPathSum {
           Queue<Integer>queVal=new LinkedList<Integer>();
           queNode.offer(root);
           queVal.offer(root.val);
+         List<Integer> currentPath = new ArrayList<>();
           while (!queNode.isEmpty()) {
 
               TreeNode now = queNode.poll();
               int temp = queVal.poll();
+              currentPath.add(temp);
                if (now.left == null && now.right == null) {
                     //已经到了根节点
                     if (temp == sum) {
+                        System.out.println(currentPath);
                          return true;
                     }
                     continue;
