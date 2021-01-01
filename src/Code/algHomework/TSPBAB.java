@@ -122,6 +122,7 @@ public class TSPBAB
                 // for the node that we have arrived on
                 // If current lower bound < final_res, we need to explore
                 // the node further
+                //定义下界，如果小于下界，那么证明可能有机会发现更小的结果
                 if (curr_bound + curr_weight < final_res)
                 {
                     curr_path[level] = i;

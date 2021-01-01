@@ -9,6 +9,9 @@ import java.util.List;
 
 public class minimumTotal {
     public void solution_wrong(List<List<Integer>> triangle){
+        /**
+         * 此算法存在错误，应当被抛弃
+         */
         int length = triangle.size();
         int preIndex =0;
         HashMap<Integer,Integer> optResult=new HashMap<>();
