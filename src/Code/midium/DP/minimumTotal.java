@@ -50,7 +50,6 @@ public class minimumTotal {
         List<Integer> list1=Arrays.asList(-1);
         List<Integer> list2=Arrays.asList(2,3);
         List<Integer> list3=Arrays.asList(1,-1,3);
-//        List<Integer> list4=Arrays.asList(4,10,8,3);
         triangle.add(list1);
         triangle.add(list2);
         triangle.add(list3);
