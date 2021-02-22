@@ -9,6 +9,7 @@ import java.util.List;
 public class wordBreak {
     public boolean solution(String s, List<String> wordDict){
         //双指针
+//        StringBuilder
         int ptrSlow=0;
         int ptrFast=1;
         boolean flag = false;
