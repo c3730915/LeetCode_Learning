@@ -43,6 +43,9 @@ public class maxProfit {
     }
 
     public int solution_DP_OPT(int[] prices) {
+        /**
+         * 此方法为一维数组的暴力算法/假动态规划
+         */
         int n = prices.length;
         if(n==0||n==1){
             return 0;
@@ -77,6 +80,24 @@ public class maxProfit {
         System.out.println(result);
 
         return result;
+    }
+
+    public int solution_OPTagain(int[] prices){
+        /**
+         * 只有n的时间复杂度
+         * 当前天卖，然后找出之前买入的最低点即可
+         */
+
+        int minprice = Integer.MAX_VALUE;
+        int maxprofit = 0;
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minprice) {
+                minprice = prices[i];
+            } else if (prices[i] - minprice > maxprofit) {
+                maxprofit = prices[i] - minprice;
+            }
+        }
+        return maxprofit;
     }
 
     @Test
