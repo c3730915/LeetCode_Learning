@@ -114,7 +114,7 @@ public class nextPermutation {
          */
 
     }
-    
+
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
         while (i >= 0 && nums[i] >= nums[i + 1]) {
