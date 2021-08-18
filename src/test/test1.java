@@ -3,9 +3,7 @@ package test;
 import org.junit.Test;
 
 import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class test1 {
     /**
@@ -16,7 +14,34 @@ public class test1 {
     public void run(){
 //        double[]result = dfs(0, 0, 100);
 //        System.out.println(Arrays.toString(result));
-        System.out.println(maxDivisor(12, 30));
+    }
+    @Test
+    public void getIniList(){
+        String str = "30630554,4353,4343";
+        String[] split = str.split(",");
+//        System.out.println(Arrays.toString(split));
+        List<String> result = Arrays.asList(split);
+        List<String> market = getMarketList.getMarket("1");
+        System.out.println(result);
+        System.out.println(market);
+
+
+    }
+    @Test
+    public void getMarket(){
+        String[] market = new String[]{"中东市场","非洲市场","欧洲市场","拉美市场","朝鲜市场","古巴市场","美国市场"};
+        Random rand = new Random();
+        int randNum = rand.nextInt(market.length-1); //生成0~数组长度-1的随机数 包括
+        List<String> resultList = new ArrayList<>();
+        if(randNum!=0){
+            resultList.addAll(Arrays.asList(market[randNum-1],market[randNum]));
+        }else {
+            resultList.addAll(Arrays.asList(market[0],market[randNum+1]));
+
+        }
+        System.out.println(resultList.toString());
+
+//        return resultList;
     }
     public double[] dfs(int currentBounce,double totalLength,double currentHeight){
         if(currentBounce ==10){
