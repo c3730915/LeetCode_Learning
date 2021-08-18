@@ -1,6 +1,6 @@
 package Code.Algroithms.DFS;
 
-import Code.easy.Tree.TreeNode;
+import Code.LeetCode.easy.Tree.TreeNode;
 public class minDepth {
     public int minDept_DFS(TreeNode root) {
         /**
