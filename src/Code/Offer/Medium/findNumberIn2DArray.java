@@ -11,6 +11,7 @@ import java.util.stream.Stream;
 public class findNumberIn2DArray {
     public boolean solution_Str(int[][] matrix, Integer target){
         if(matrix.length==0){
+
             return false;
         }
         if(matrix[0].length==0)
