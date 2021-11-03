@@ -1,4 +1,4 @@
-package test;
+package test.old;
 
 import javax.crypto.*;
 import javax.crypto.spec.PBEKeySpec;

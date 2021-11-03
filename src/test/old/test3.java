@@ -1,4 +1,4 @@
-package test;
+package test.old;
 
 import org.junit.Test;
 
@@ -17,5 +17,10 @@ public class test3 {
         System.out.println(list1);
         System.out.println(list2);
         System.out.println(Collections.disjoint(list1,list2));
+    }
+    @Test
+    public void bitwise(){
+        Integer feature = 0 | 16 |8;
+        System.out.println(feature);
     }
 }
