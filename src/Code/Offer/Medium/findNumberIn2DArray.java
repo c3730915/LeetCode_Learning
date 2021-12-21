@@ -35,6 +35,11 @@ public class findNumberIn2DArray {
        return true;
    }
 
+   public boolean solution_twoPtr(int[][] martix,Integer target){
+
+        return false;
+   }
+
     @Test
     public void run(){
         int[][] matrix = new int[][]
@@ -44,6 +49,13 @@ public class findNumberIn2DArray {
                 {10, 13, 14, 17, 24},
                 {18, 21, 23, 26, 30}
         };
-        solution_stream(matrix,30);
+//        solution_stream(matrix,30);
+       int rows = matrix.length;
+       int columns = matrix[0].length;
+        for ( int i = 0; i < rows; i++ ) {
+            for ( int j = 0; j < columns; j++ ) {
+                System.out.println(matrix[i][j]);
+            }
+        }
     }
 }

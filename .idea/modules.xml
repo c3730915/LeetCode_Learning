@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LeetCode_Learning.iml" filepath="$PROJECT_DIR$/LeetCode_Learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../mavenTest/mavenTest.iml" filepath="$PROJECT_DIR$/../mavenTest/mavenTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenMoudle/mavenMoudle.iml" filepath="$PROJECT_DIR$/mavenMoudle/mavenMoudle.iml" />
     </modules>
   </component>
 </project>
